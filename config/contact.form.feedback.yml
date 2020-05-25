@@ -1,0 +1,14 @@
+uuid: b9a8ab4b-415a-4438-a49e-3cd8ed4da949
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - s.purenins@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

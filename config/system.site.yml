@@ -1,0 +1,14 @@
+uuid: ebb3b9c1-f76e-4781-8972-6e79ebe2098b
+name: 'Drupal - Smiltenes majas lapas demo projekts'
+mail: s.purenins@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
