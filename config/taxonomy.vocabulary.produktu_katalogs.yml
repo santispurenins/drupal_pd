@@ -1,0 +1,8 @@
+uuid: 818a62cd-b469-444b-ae36-0c29de452f0c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Produktu katalogs'
+vid: produktu_katalogs
+description: ''
+weight: 0
