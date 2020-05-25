@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6bde4593f90977063011e2dbdeada82",
+    "content-hash": "918ea02ce11e11b16ee34d0af90d0982",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -650,6 +650,11 @@
         {
             "name": "drupal/core",
             "version": "8.8.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core.git",
+                "reference": "a5daf2aa45bbc72da72e1e64d5261f746ffb508c"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core/zipball/a5daf2aa45bbc72da72e1e64d5261f746ffb508c",
@@ -876,16 +881,16 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core.git",
-                "reference": "a5daf2aa45bbc72da72e1e64d5261f746ffb508c"
-            }
+            "description": "Drupal is an open source content management platform powering millions of websites and applications."
         },
         {
             "name": "drupal/core-composer-scaffold",
             "version": "8.8.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-composer-scaffold.git",
+                "reference": "4825cb5234c28dff79ad298db582dfb23ff4ca59"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/4825cb5234c28dff79ad298db582dfb23ff4ca59",
@@ -921,16 +926,16 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ],
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-composer-scaffold.git",
-                "reference": "4825cb5234c28dff79ad298db582dfb23ff4ca59"
-            }
+            ]
         },
         {
             "name": "drupal/core-project-message",
             "version": "8.8.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-project-message.git",
+                "reference": "10be18c6a401de8e243777de6a74cb45a7ecacad"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-project-message/zipball/10be18c6a401de8e243777de6a74cb45a7ecacad",
@@ -957,16 +962,16 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ],
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-project-message.git",
-                "reference": "10be18c6a401de8e243777de6a74cb45a7ecacad"
-            }
+            ]
         },
         {
             "name": "drupal/core-recommended",
             "version": "8.8.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-recommended.git",
+                "reference": "361d61f272767e0e34f8ac8c7a51e7c14e387714"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-recommended/zipball/361d61f272767e0e34f8ac8c7a51e7c14e387714",
@@ -1035,11 +1040,69 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
+            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core."
+        },
+        {
+            "name": "drupal/twitter_block",
+            "version": "3.0.0-alpha0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "361d61f272767e0e34f8ac8c7a51e7c14e387714"
+                "url": "https://git.drupalcode.org/project/twitter_block.git",
+                "reference": "8.x-3.0-alpha0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/twitter_block-8.x-3.0-alpha0.zip",
+                "reference": "8.x-3.0-alpha0",
+                "shasum": "f959bec1332f2bd45e813eefa3b982df4eb129bb"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-alpha0",
+                    "datestamp": "1489574283",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Devin Carlson",
+                    "homepage": "https://www.drupal.org/user/290182"
+                },
+                {
+                    "name": "ZenDoodles",
+                    "homepage": "https://www.drupal.org/user/226976"
+                },
+                {
+                    "name": "cweagans",
+                    "homepage": "https://www.drupal.org/user/404732"
+                },
+                {
+                    "name": "naveenvalecha",
+                    "homepage": "https://www.drupal.org/user/2665733"
+                },
+                {
+                    "name": "subhojit777",
+                    "homepage": "https://www.drupal.org/user/1812492"
+                }
+            ],
+            "description": "Provides configurable blocks for a Twitter feed.",
+            "homepage": "http://drupal.org/project/twitter_block",
+            "support": {
+                "source": "https://git.drupalcode.org/project/twitter_block"
             }
         },
         {

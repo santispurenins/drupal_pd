@@ -12,3 +12,5 @@ web/sites/*/private
 # Ignore logs and databases
 *.sql
 *.log
+/.editorconfig
+/.gitattributes
